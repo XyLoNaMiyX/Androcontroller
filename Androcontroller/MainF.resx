@@ -1,0 +1,1054 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lonamiWebsLL.Name" xml:space="preserve">
+    <value>lonamiWebsLL</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="sendTextL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 193</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="refreshDeviceListB.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="selectDeviceB.Text" xml:space="preserve">
+    <value>Elegir dispositivo</value>
+  </data>
+  <data name="restartADB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 160</value>
+  </data>
+  <data name="spamL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 13</value>
+  </data>
+  <data name="helpB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 493</value>
+  </data>
+  <data name="recordScreenCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="warningsL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="backB.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="moreInfoB.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;consoleL.Parent" xml:space="preserve">
+    <value>deviceGB</value>
+  </data>
+  <data name="screenPB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 480</value>
+  </data>
+  <data name="&gt;&gt;lonamiWebsLL.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;refreshDeviceListB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toggleNotifB.Text" xml:space="preserve">
+    <value>Mostrar notificaciones</value>
+  </data>
+  <data name="&gt;&gt;refreshDeviceListB.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="homeB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 235</value>
+  </data>
+  <data name="&gt;&gt;sendTextTB.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="spamL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 474</value>
+  </data>
+  <data name="selectDeviceB.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;consoleInputTB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="recordScreenCB.Text" xml:space="preserve">
+    <value>Capturar pantalla</value>
+  </data>
+  <data name="&gt;&gt;checkUpdatesB.Name" xml:space="preserve">
+    <value>checkUpdatesB</value>
+  </data>
+  <data name="&gt;&gt;consoleTB.Parent" xml:space="preserve">
+    <value>deviceGB</value>
+  </data>
+  <data name="volumeUpB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 42</value>
+  </data>
+  <data name="spamL.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;toggleNotifB.Name" xml:space="preserve">
+    <value>toggleNotifB</value>
+  </data>
+  <data name="&gt;&gt;powerB.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Androcontroller</value>
+  </data>
+  <data name="&gt;&gt;fpsL.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lonamiWebsLL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;devicesLB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;screenPB.Name" xml:space="preserve">
+    <value>screenPB</value>
+  </data>
+  <data name="consoleInputTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 481</value>
+  </data>
+  <data name="&gt;&gt;consoleL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="recordScreenCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 131</value>
+  </data>
+  <data name="&gt;&gt;selectDeviceB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;homeB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="consoleTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 127</value>
+  </data>
+  <data name="recordScreenCB.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="moreInfoB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 306</value>
+  </data>
+  <data name="&gt;&gt;checkUpdatesB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;capScreenT.Name" xml:space="preserve">
+    <value>capScreenT</value>
+  </data>
+  <data name="deviceGB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 12</value>
+  </data>
+  <data name="welcomeL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 13</value>
+  </data>
+  <data name="&gt;&gt;homeB.Name" xml:space="preserve">
+    <value>homeB</value>
+  </data>
+  <data name="screenPB.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="volumeDownB.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;toggleNotifB.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;recordScreenCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="restartADB.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="powerB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="&gt;&gt;deviceGB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lonamiWebsLL.Text" xml:space="preserve">
+    <value>lonamiwebs.github.io</value>
+  </data>
+  <data name="&gt;&gt;physicalButtonsP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;consoleInputTB.Parent" xml:space="preserve">
+    <value>deviceGB</value>
+  </data>
+  <data name="powerB.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;warningsL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuB.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;deviceGB.Name" xml:space="preserve">
+    <value>deviceGB</value>
+  </data>
+  <data name="&gt;&gt;sendTextL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 235</value>
+  </data>
+  <data name="&gt;&gt;helpB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spamL.Name" xml:space="preserve">
+    <value>spamL</value>
+  </data>
+  <data name="consoleL.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="consoleTB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;helpB.Name" xml:space="preserve">
+    <value>helpB</value>
+  </data>
+  <data name="helpB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;menuB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sendTextL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="backB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 235</value>
+  </data>
+  <data name="&gt;&gt;fpsL.Name" xml:space="preserve">
+    <value>fpsL</value>
+  </data>
+  <data name="&gt;&gt;backB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;fpsNUD.Name" xml:space="preserve">
+    <value>fpsNUD</value>
+  </data>
+  <data name="fpsNUD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="powerB.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;homeB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="welcomeL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="spamL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;helpB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;consoleL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;sendTextTB.Name" xml:space="preserve">
+    <value>sendTextTB</value>
+  </data>
+  <data name="&gt;&gt;volumeUpB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;welcomeL.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;backB.Name" xml:space="preserve">
+    <value>backB</value>
+  </data>
+  <data name="&gt;&gt;powerB.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lonamiWebsLL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="volumeDownB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 42</value>
+  </data>
+  <data name="selectDeviceB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 23</value>
+  </data>
+  <data name="consoleL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="toggleNotifB.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;consoleTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sendTextL.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="checkUpdatesB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 493</value>
+  </data>
+  <data name="&gt;&gt;menuB.Name" xml:space="preserve">
+    <value>menuB</value>
+  </data>
+  <data name="devicesLB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 95</value>
+  </data>
+  <data name="consoleL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;selectDeviceB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;refreshDeviceListB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="warningsL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 200</value>
+  </data>
+  <data name="menuB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 42</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainF</value>
+  </data>
+  <data name="selectDeviceB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 131</value>
+  </data>
+  <data name="&gt;&gt;sendTextTB.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="homeB.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="screenPB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;physicalButtonsP.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="consoleTB.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="warningsL.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="consoleTB.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="consoleTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 348</value>
+  </data>
+  <data name="&gt;&gt;fpsL.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="physicalButtonsP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="&gt;&gt;warningsL.Name" xml:space="preserve">
+    <value>warningsL</value>
+  </data>
+  <data name="deviceGB.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="fpsNUD.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;warningsL.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;moreInfoB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="helpB.Text" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="restartADB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 37</value>
+  </data>
+  <data name="volumeDownB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 95</value>
+  </data>
+  <data name="&gt;&gt;volumeDownB.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="fpsL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;moreInfoB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;volumeDownB.Name" xml:space="preserve">
+    <value>volumeDownB</value>
+  </data>
+  <data name="lonamiWebsLL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 474</value>
+  </data>
+  <data name="welcomeL.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="volumeUpB.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;backB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTextTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 209</value>
+  </data>
+  <data name="&gt;&gt;spamL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;devicesLB.Name" xml:space="preserve">
+    <value>devicesLB</value>
+  </data>
+  <data name="deviceGB.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lonamiWebsLL.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;fpsL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="screenPB.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;menuB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="powerB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 3</value>
+  </data>
+  <data name="consoleTB.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lonamiWebsLL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="backB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 42</value>
+  </data>
+  <data name="sendTextL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="helpB.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="restartADB.Text" xml:space="preserve">
+    <value>Reiniciar ADB (si el dispositivo ha dejado de responder)</value>
+  </data>
+  <data name="&gt;&gt;screenPB.Parent" xml:space="preserve">
+    <value>deviceGB</value>
+  </data>
+  <data name="&gt;&gt;screenPB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="fpsNUD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 104</value>
+  </data>
+  <data name="sendTextL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fpsL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sendTextL.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="spamL.Text" xml:space="preserve">
+    <value>Aplicación diseñada por:</value>
+  </data>
+  <data name="&gt;&gt;screenPB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTextL.Text" xml:space="preserve">
+    <value>Enviar texto:</value>
+  </data>
+  <data name="&gt;&gt;lonamiWebsLL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toggleNotifB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;consoleTB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="fpsL.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="fpsL.Text" xml:space="preserve">
+    <value>FPS:</value>
+  </data>
+  <data name="moreInfoB.Text" xml:space="preserve">
+    <value>Ver más información del dispositivo</value>
+  </data>
+  <data name="consoleInputTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 20</value>
+  </data>
+  <data name="&gt;&gt;consoleTB.Name" xml:space="preserve">
+    <value>consoleTB</value>
+  </data>
+  <data name="helpB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 23</value>
+  </data>
+  <data name="&gt;&gt;checkUpdatesB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;moreInfoB.Parent" xml:space="preserve">
+    <value>deviceGB</value>
+  </data>
+  <data name="&gt;&gt;welcomeL.Name" xml:space="preserve">
+    <value>welcomeL</value>
+  </data>
+  <data name="&gt;&gt;volumeUpB.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="checkUpdatesB.Text" xml:space="preserve">
+    <value>Comprobar actualizaciones</value>
+  </data>
+  <data name="&gt;&gt;fpsNUD.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="refreshDeviceListB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 131</value>
+  </data>
+  <data name="volumeDownB.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;sendTextTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;consoleL.Name" xml:space="preserve">
+    <value>consoleL</value>
+  </data>
+  <data name="consoleInputTB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;spamL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;recordScreenCB.Name" xml:space="preserve">
+    <value>recordScreenCB</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;physicalButtonsP.Parent" xml:space="preserve">
+    <value>deviceGB</value>
+  </data>
+  <data name="welcomeL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;restartADB.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;refreshDeviceListB.Name" xml:space="preserve">
+    <value>refreshDeviceListB</value>
+  </data>
+  <data name="&gt;&gt;warningsL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="physicalButtonsP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 280</value>
+  </data>
+  <data name="&gt;&gt;powerB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="volumeUpB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 46</value>
+  </data>
+  <data name="&gt;&gt;checkUpdatesB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;welcomeL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="homeB.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;fpsNUD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="warningsL.Text" xml:space="preserve">
+    <value>[Avisos]</value>
+  </data>
+  <data name="deviceGB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;consoleInputTB.Name" xml:space="preserve">
+    <value>consoleInputTB</value>
+  </data>
+  <data name="&gt;&gt;toggleNotifB.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="&gt;&gt;physicalButtonsP.Name" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="devicesLB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAaGhrVGhoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGtUaGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xobGv8WQBb/FkEW/xZBFv8WQRb/FkEW/xZB
+        Fv8WQRb/FkEW/xZBFv8WQRb/FkEW/xZBFv8WQRb/FkEW/xZBFv8WQRb/FkEW/xZBFv8WQRb/FkEW/xZB
+        Fv8WQRb/FkEW/xZBFv8WQRb/FkEW/xZBFv8XMRf/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/Kysr/xoa
+        Gv8aGhr/HR0d/yoqKv8aGhr/R0dH/56env8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkf
+        Gf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoa
+        Gv8dHR3/tra2/xoaGv8aGhr/PT09/6Kiov8aGhr/tLS0//7+/v8+Pj7/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8Logv/Ghoa/xoaGv8bGxv/uLi4/xoaGv8aGhr/SEhI/5aWlv8cHBz/7+/v//////94eHj/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8K/Ar/gt6C/77Qvv+i1qL/K/Qr/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/uLi4/xoaGv8aGhr/VFRU/4qKiv84ODj/////////
+        //+ioqL/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP934Xf/zMzM/8zMzP/MzMz/udG5/wf9
+        B/8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/t7e3/xoaGv8aGhr/X19f/35+
+        fv9aWlr/+/v7/9jY2P/ExMT/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP+p1an/zMzM/8zM
+        zP/MzMz/zMzM/yT2JP8C/wL/I/Yj/xf5F/8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/t7e3/xoa
+        Gv8aGhr/ampq/3Jycv92dnb/srKy/0RERP/g4OD/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkf
+        Gf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP+E3oT/zMzM/8zMzP/MzMz/wc/B/xn5Gf+h16H/zMzM/8rMyv9w43D/AP8A/wD/AP8Logv/Ghoa/xoa
+        Gv8aGhr/tra2/xoaGv8aGhr/dXV1/2ZmZv+NjY3/dnZ2/xwcHP/l5eX/Gxsb/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av8C/5Lbkv+Y2Zj/mNmY/5jZmP8U+hT/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8U+hT/ntie/8zMzP+60Lr/P+8//2zkbP/MzMz/zMzM/8zMzP/MzMz/K/Qr/wD/
+        AP8Logv/Ghoa/xoaGv8aGhr/srKy/x4eHv8aGhr/gICA/1paWv+hoaH/Tk5O/xoaGv/Ly8v/JSUl/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av4C/8TOxP/MzMz/zMzM/8zM
+        zP8c+Bz/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/w78Dv8E/gT/AP8A/4bdhv/MzMz/zMzM/8zM
+        zP/MzMz/Re5F/wD/AP8Logv/Ghoa/xoaGv8aGhr/rKys/yIiIv8aGhr/jIyM/05OTv+ysrL/MDAw/xoa
+        Gv+wsLD/NjY2/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av4C/8TO
+        xP/MzMz/zMzM/8zMzP8c+Bz/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/0nt
+        Sf/MzMz/zMzM/8zMzP/Bz8H/E/oT/wD/AP8Logv/Ghoa/xoaGv8aGhr/o6Oj/ywsLP8aGhr/l5eX/0JC
+        Qv+7u7v/Hx8f/xoaGv+ampr/RERE/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/
+        AP8A/wD/Av4C/8TOxP/MzMz/zMzM/8zMzP8c+Bz/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP9W6lb/odeh/5TalP8t9C3/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/mJiY/zY2
+        Nv8aGhr/oqKi/zY2Nv+7u7v/Ghoa/xoaGv+Kior/UVFR/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkf
+        Gf8U+RT/auRq/2vka/9r5Gv/beRt/8jNyP/MzMz/zMzM/8zMzP954Xn/beRt/23kbf9t5G3/J/Un/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoa
+        Gv8aGhr/jIyM/0FBQf8aGhr/ra2t/yoqKv+4uLj/Ghoa/xoaGv98fHz/W1tb/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xkfGf8n9Cf/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zM
+        zP/MzMz/SO1I/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8Logv/Ghoa/xoaGv8aGhr/gYGB/39/f/9dXV3/y8vL/x8fH/+3t7f/Ghoa/xoaGv9xcXH/ZGRk/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8n9Cf/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zM
+        zP/MzMz/zMzM/8zMzP/MzMz/SO1I/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/dnZ2////////////9vb2/xwcHP+2trb/Ghoa/xoa
+        Gv9nZ2f/S0tL/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8m9Sb/zMzM/8zMzP/MzMz/zMzM/8zM
+        zP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/SO1I/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/a2tr////////////6+vr/xsb
+        G/+0tLT/Ghoa/xoaGv8uLi7/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8W+Rb/eOF4/3jh
+        eP944Xj/eOF4/8nNyf/MzMz/zMzM/8zMzP+C34L/duJ2/3Xidf914nX/KvUq/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/YGBg////
+        ////////4ODg/x0dHf+ysrL/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkf
+        Gf8A/gD/AP8A/wD/AP8A/wD/Av4C/8TOxP/MzMz/zMzM/8zMzP8c+Bz/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoa
+        Gv8aGhr/VFRU//T09P/r6+v/0tLS/x4eHv+xsbH/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av4C/8TOxP/MzMz/zMzM/8zMzP8c+Bz/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8Logv/Ghoa/xoaGv8aGhr/SUlJ/39/f/8aGhr/ubm5/x8fH/+wsLD/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av4C/8TOxP/MzMz/zMzM/8zM
+        zP8c+Bz/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/Pj4+/4qKiv8eHh7/tLS0/x8fH/+vr6//Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av8C/5zY
+        nP+j1qP/o9aj/6PWo/8W+Rb/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/MzMz/5WVlf8iIiL/rq6u/yEh
+        If+urq7/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/KCgo/5+f
+        n/8sLCz/pKSk/yIiIv+urq7/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkf
+        Gf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoa
+        Gv8aGhr/ISEh/6ampv83Nzf/mJiY/yEhIf+urq7/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8Logv/Ghoa/xoaGv8aGhr/Gxsb/6ysrP9CQkL/jIyM/yAgIP+vr6//Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/Ghoa/6ysrP9NTU3/gICA/x8fH/+xsbH/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xodGv8Lngv/C58L/wufC/8Lnwv/C58L/wuf
+        C/8Lnwv/C58L/wufC/8Lnwv/C58L/wufC/8Lnwv/C58L/wufC/8Lnwv/C58L/wufC/8Lnwv/C58L/wuf
+        C/8Lnwv/C58L/wufC/8Lnwv/C58L/wufC/8RaRH/Ghoa/xoaGv8aGhr/Ghoa/6ysrP9XV1f/dHR0/x4e
+        Hv+zs7P/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/6ys
+        rP9iYmL/aWlp/x0dHf+0tLT/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/6ysrP9tbW3/XV1d/xwcHP+3t7f/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xZBFv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6G
+        Dv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6G
+        Dv8TVhP/Ghoa/xoaGv8aGhr/Ghoa/6urq/94eHj/UVFR/xoaGv+5ubn/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xRRFP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8PfQ//Ghoa/xoaGv8aGhr/Ghoa/6urq/+Dg4P/RUVF/xoaGv+6urr/Ghoa/xoa
+        Gv9WVlb/Hx8f/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkiGf8B9AH/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8VRRX/Ghoa/xoaGv8aGhr/Ghoa/6ioqP+QkJD/OTk5/xoa
+        Gv+7u7v/Ghoa/xoaGv+BgYH/UVFR/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8JrAn/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wTXBP8aGxr/Ghoa/xoaGv8aGhr/Ghoa/52d
+        nf+kpKT/LS0t/xoaGv++vr7/Gxsb/xoaGv+Ojo7/SkpK/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8VQxX/APsA/wD/AP8A/wD/Dv8O/wn/Cf8A/wD/AP8A/wD/AP8A/wD/AP8A/xD/EP8H/wf/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/xFrEf8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/5KSkv+0tLT/IyMj/xoaGv+8vLz/ISEh/xoaGv+enp7/Pz8//xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/DJkM/wD/AP80/zT/9f/1/+P/4/8T/xP/AP8A/wD/AP8A/wD/Qv9C//j/
+        +P/a/9r/Cv8K/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/B8QH/xob
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/4eHh//CwsL/HR0d/xoaGv+vr6//NjY2/xoaGv+ysrL/MTEx/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/GSAZ/wbKBv9f/1////////////8t/y3/AP8A/wD/
+        AP8A/wD/cP9w///////9//3/Hf8d/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8D5gP/FzEX/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/3t7e//Kysr/Ghoa/xoaGv+cnJz/VVVV/xoa
+        Gv/Ly8v/ISEh/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xgpGP8Lzgv/dv92/1//
+        X/8A/wD/AP8A/wD/AP8A/wD/Cv8K/3v/e/9W/1b/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wPmA/8WPhb/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/3BwcP/Ozs7/Ghoa/xoa
+        Gv+Ghob/f39//xwcHP/h4eH/Gxsb/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8ZIxn/CqkK/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/BsgG/xcyF/8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/2Vl
+        Zf/R0dH/Ghoa/xoaGv9ra2v/w8PD/0lJSf/b29v/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wqmCv8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wLqAv8PeA//Gh0a/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/1paWv/Kysr/Ghoa/xoaGv9LS0v///////Hx8f/AwMD/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wyYDP8C7wL/El0S/wm0Cf8C8QL/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8D6AP/EHIQ/xkjGf8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/09PT/+/v7//Ghoa/xoaGv8nJyf//Pz8//////+dnZ3/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wyYDP8C7gL/Ghoa/xoa
+        Gv8aHhr/FUUV/xFqEf8Ogg7/DYsN/w6FDv8QchD/FFAU/wbMBv8Hwgf/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/0RERP+zs7P/Ghoa/xoaGv8aGhr/1tbW////
+        //9xcXH/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wyY
+        DP8C7gL/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wfFB/8Hwgf/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/zY2Nv+bm5v/Ghoa/xoa
+        Gv8aGhr/kZGR//z8/P81NTX/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/wyYDP8C7gL/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wfF
+        B/8Hwgf/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/LCws/3V1df8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wyYDP8C7gL/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/wfFB/8Hwgf/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xY6Fv8UTxT/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wfFB/8Hwgf/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wqoCv8Kpgr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhrVGhoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGtUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAA=
+</value>
+  </data>
+  <data name="volumeUpB.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;recordScreenCB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;sendTextL.Name" xml:space="preserve">
+    <value>sendTextL</value>
+  </data>
+  <data name="&gt;&gt;helpB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;restartADB.Name" xml:space="preserve">
+    <value>restartADB</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="sendTextTB.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="deviceGB.Text" xml:space="preserve">
+    <value>Información del dispositivo</value>
+  </data>
+  <data name="&gt;&gt;volumeUpB.Name" xml:space="preserve">
+    <value>volumeUpB</value>
+  </data>
+  <data name="screenPB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 19</value>
+  </data>
+  <data name="checkUpdatesB.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="consoleInputTB.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;devicesLB.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="checkUpdatesB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 23</value>
+  </data>
+  <data name="&gt;&gt;capScreenT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;consoleInputTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="homeB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 42</value>
+  </data>
+  <data name="&gt;&gt;recordScreenCB.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="recordScreenCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkUpdatesB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="welcomeL.Text" xml:space="preserve">
+    <value>Por favor elija un dispositivo para continuar:</value>
+  </data>
+  <data name="&gt;&gt;menuB.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="&gt;&gt;volumeDownB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spamL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;welcomeL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="refreshDeviceListB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="&gt;&gt;devicesLB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fpsNUD.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 531</value>
+  </data>
+  <data name="&gt;&gt;deviceGB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;restartADB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;backB.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="warningsL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="devicesLB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 29</value>
+  </data>
+  <data name="&gt;&gt;volumeDownB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="consoleL.Text" xml:space="preserve">
+    <value>Consola</value>
+  </data>
+  <data name="toggleNotifB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 23</value>
+  </data>
+  <data name="menuB.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;deviceGB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;homeB.Parent" xml:space="preserve">
+    <value>physicalButtonsP</value>
+  </data>
+  <data name="selectDeviceB.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="backB.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;selectDeviceB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="consoleL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 332</value>
+  </data>
+  <data name="fpsL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 106</value>
+  </data>
+  <data name="moreInfoB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="&gt;&gt;powerB.Name" xml:space="preserve">
+    <value>powerB</value>
+  </data>
+  <data name="&gt;&gt;spamL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="physicalButtonsP.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="deviceGB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 510</value>
+  </data>
+  <data name="&gt;&gt;selectDeviceB.Name" xml:space="preserve">
+    <value>selectDeviceB</value>
+  </data>
+  <data name="&gt;&gt;moreInfoB.Name" xml:space="preserve">
+    <value>moreInfoB</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>640, 500</value>
+  </data>
+  <data name="&gt;&gt;restartADB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toggleNotifB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;volumeUpB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lonamiWebsLL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="refreshDeviceListB.Text" xml:space="preserve">
+    <value>Refrescar</value>
+  </data>
+  <data name="sendTextTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 20</value>
+  </data>
+  <data name="capScreenT.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+</root>

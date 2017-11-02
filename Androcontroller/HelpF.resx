@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="acceptB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 108</value>
+  </data>
+  <data name="acceptB.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Esta aplicación ha sido diseñada por Lonami.
+La aplicación utiliza el archivo adb.exe oficial para, mediante una interfaz sencilla, controlar el dispositivo Android.
+
+Se agradecen comentarios sobre fallos en la aplicación para que puedan ser arreglados.
+
+Si tiene alguna duda sobre el funcionamento de la aplicación, por favor contacte con su autor a través del siguiente enlace:</value>
+  </data>
+  <data name="&gt;&gt;supportLL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>HelpF</value>
+  </data>
+  <data name="&gt;&gt;acceptB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;supportLL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>607, 138</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="supportLL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 101</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="supportLL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 13</value>
+  </data>
+  <data name="&gt;&gt;acceptB.Name" xml:space="preserve">
+    <value>acceptB</value>
+  </data>
+  <data name="&gt;&gt;supportLL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;acceptB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>590, 78</value>
+  </data>
+  <data name="&gt;&gt;supportLL.Name" xml:space="preserve">
+    <value>supportLL</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="acceptB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="supportLL.Text" xml:space="preserve">
+    <value>lonamiwebs.github.io/contacto</value>
+  </data>
+  <data name="supportLL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="acceptB.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAaGhrVGhoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGtUaGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xobGv8WQBb/FkEW/xZBFv8WQRb/FkEW/xZB
+        Fv8WQRb/FkEW/xZBFv8WQRb/FkEW/xZBFv8WQRb/FkEW/xZBFv8WQRb/FkEW/xZBFv8WQRb/FkEW/xZB
+        Fv8WQRb/FkEW/xZBFv8WQRb/FkEW/xZBFv8XMRf/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/Kysr/xoa
+        Gv8aGhr/HR0d/yoqKv8aGhr/R0dH/56env8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkf
+        Gf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoa
+        Gv8dHR3/tra2/xoaGv8aGhr/PT09/6Kiov8aGhr/tLS0//7+/v8+Pj7/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8Logv/Ghoa/xoaGv8bGxv/uLi4/xoaGv8aGhr/SEhI/5aWlv8cHBz/7+/v//////94eHj/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8K/Ar/gt6C/77Qvv+i1qL/K/Qr/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/uLi4/xoaGv8aGhr/VFRU/4qKiv84ODj/////////
+        //+ioqL/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP934Xf/zMzM/8zMzP/MzMz/udG5/wf9
+        B/8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/t7e3/xoaGv8aGhr/X19f/35+
+        fv9aWlr/+/v7/9jY2P/ExMT/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP+p1an/zMzM/8zM
+        zP/MzMz/zMzM/yT2JP8C/wL/I/Yj/xf5F/8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/t7e3/xoa
+        Gv8aGhr/ampq/3Jycv92dnb/srKy/0RERP/g4OD/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkf
+        Gf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP+E3oT/zMzM/8zMzP/MzMz/wc/B/xn5Gf+h16H/zMzM/8rMyv9w43D/AP8A/wD/AP8Logv/Ghoa/xoa
+        Gv8aGhr/tra2/xoaGv8aGhr/dXV1/2ZmZv+NjY3/dnZ2/xwcHP/l5eX/Gxsb/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av8C/5Lbkv+Y2Zj/mNmY/5jZmP8U+hT/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8U+hT/ntie/8zMzP+60Lr/P+8//2zkbP/MzMz/zMzM/8zMzP/MzMz/K/Qr/wD/
+        AP8Logv/Ghoa/xoaGv8aGhr/srKy/x4eHv8aGhr/gICA/1paWv+hoaH/Tk5O/xoaGv/Ly8v/JSUl/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av4C/8TOxP/MzMz/zMzM/8zM
+        zP8c+Bz/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/w78Dv8E/gT/AP8A/4bdhv/MzMz/zMzM/8zM
+        zP/MzMz/Re5F/wD/AP8Logv/Ghoa/xoaGv8aGhr/rKys/yIiIv8aGhr/jIyM/05OTv+ysrL/MDAw/xoa
+        Gv+wsLD/NjY2/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av4C/8TO
+        xP/MzMz/zMzM/8zMzP8c+Bz/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/0nt
+        Sf/MzMz/zMzM/8zMzP/Bz8H/E/oT/wD/AP8Logv/Ghoa/xoaGv8aGhr/o6Oj/ywsLP8aGhr/l5eX/0JC
+        Qv+7u7v/Hx8f/xoaGv+ampr/RERE/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/
+        AP8A/wD/Av4C/8TOxP/MzMz/zMzM/8zMzP8c+Bz/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP9W6lb/odeh/5TalP8t9C3/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/mJiY/zY2
+        Nv8aGhr/oqKi/zY2Nv+7u7v/Ghoa/xoaGv+Kior/UVFR/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkf
+        Gf8U+RT/auRq/2vka/9r5Gv/beRt/8jNyP/MzMz/zMzM/8zMzP954Xn/beRt/23kbf9t5G3/J/Un/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoa
+        Gv8aGhr/jIyM/0FBQf8aGhr/ra2t/yoqKv+4uLj/Ghoa/xoaGv98fHz/W1tb/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xkfGf8n9Cf/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zM
+        zP/MzMz/SO1I/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8Logv/Ghoa/xoaGv8aGhr/gYGB/39/f/9dXV3/y8vL/x8fH/+3t7f/Ghoa/xoaGv9xcXH/ZGRk/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8n9Cf/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zM
+        zP/MzMz/zMzM/8zMzP/MzMz/SO1I/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/dnZ2////////////9vb2/xwcHP+2trb/Ghoa/xoa
+        Gv9nZ2f/S0tL/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8m9Sb/zMzM/8zMzP/MzMz/zMzM/8zM
+        zP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/SO1I/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/a2tr////////////6+vr/xsb
+        G/+0tLT/Ghoa/xoaGv8uLi7/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8W+Rb/eOF4/3jh
+        eP944Xj/eOF4/8nNyf/MzMz/zMzM/8zMzP+C34L/duJ2/3Xidf914nX/KvUq/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/YGBg////
+        ////////4ODg/x0dHf+ysrL/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkf
+        Gf8A/gD/AP8A/wD/AP8A/wD/Av4C/8TOxP/MzMz/zMzM/8zMzP8c+Bz/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoa
+        Gv8aGhr/VFRU//T09P/r6+v/0tLS/x4eHv+xsbH/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av4C/8TOxP/MzMz/zMzM/8zMzP8c+Bz/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8Logv/Ghoa/xoaGv8aGhr/SUlJ/39/f/8aGhr/ubm5/x8fH/+wsLD/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av4C/8TOxP/MzMz/zMzM/8zM
+        zP8c+Bz/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/Pj4+/4qKiv8eHh7/tLS0/x8fH/+vr6//Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/Av8C/5zY
+        nP+j1qP/o9aj/6PWo/8W+Rb/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/MzMz/5WVlf8iIiL/rq6u/yEh
+        If+urq7/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/KCgo/5+f
+        n/8sLCz/pKSk/yIiIv+urq7/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkf
+        Gf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoa
+        Gv8aGhr/ISEh/6ampv83Nzf/mJiY/yEhIf+urq7/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8Logv/Ghoa/xoaGv8aGhr/Gxsb/6ysrP9CQkL/jIyM/yAgIP+vr6//Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkfGf8A/gD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8Logv/Ghoa/xoaGv8aGhr/Ghoa/6ysrP9NTU3/gICA/x8fH/+xsbH/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xodGv8Lngv/C58L/wufC/8Lnwv/C58L/wuf
+        C/8Lnwv/C58L/wufC/8Lnwv/C58L/wufC/8Lnwv/C58L/wufC/8Lnwv/C58L/wufC/8Lnwv/C58L/wuf
+        C/8Lnwv/C58L/wufC/8Lnwv/C58L/wufC/8RaRH/Ghoa/xoaGv8aGhr/Ghoa/6ysrP9XV1f/dHR0/x4e
+        Hv+zs7P/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/6ys
+        rP9iYmL/aWlp/x0dHf+0tLT/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/6ysrP9tbW3/XV1d/xwcHP+3t7f/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xZBFv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6G
+        Dv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6GDv8Ohg7/DoYO/w6G
+        Dv8TVhP/Ghoa/xoaGv8aGhr/Ghoa/6urq/94eHj/UVFR/xoaGv+5ubn/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xRRFP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8PfQ//Ghoa/xoaGv8aGhr/Ghoa/6urq/+Dg4P/RUVF/xoaGv+6urr/Ghoa/xoa
+        Gv9WVlb/Hx8f/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xkiGf8B9AH/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8VRRX/Ghoa/xoaGv8aGhr/Ghoa/6ioqP+QkJD/OTk5/xoa
+        Gv+7u7v/Ghoa/xoaGv+BgYH/UVFR/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8JrAn/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wTXBP8aGxr/Ghoa/xoaGv8aGhr/Ghoa/52d
+        nf+kpKT/LS0t/xoaGv++vr7/Gxsb/xoaGv+Ojo7/SkpK/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8VQxX/APsA/wD/AP8A/wD/Dv8O/wn/Cf8A/wD/AP8A/wD/AP8A/wD/AP8A/xD/EP8H/wf/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/xFrEf8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/5KSkv+0tLT/IyMj/xoaGv+8vLz/ISEh/xoaGv+enp7/Pz8//xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/DJkM/wD/AP80/zT/9f/1/+P/4/8T/xP/AP8A/wD/AP8A/wD/Qv9C//j/
+        +P/a/9r/Cv8K/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/B8QH/xob
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/4eHh//CwsL/HR0d/xoaGv+vr6//NjY2/xoaGv+ysrL/MTEx/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/GSAZ/wbKBv9f/1////////////8t/y3/AP8A/wD/
+        AP8A/wD/cP9w///////9//3/Hf8d/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8D5gP/FzEX/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/3t7e//Kysr/Ghoa/xoaGv+cnJz/VVVV/xoa
+        Gv/Ly8v/ISEh/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xgpGP8Lzgv/dv92/1//
+        X/8A/wD/AP8A/wD/AP8A/wD/Cv8K/3v/e/9W/1b/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wPmA/8WPhb/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/3BwcP/Ozs7/Ghoa/xoa
+        Gv+Ghob/f39//xwcHP/h4eH/Gxsb/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8ZIxn/CqkK/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/BsgG/xcyF/8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/2Vl
+        Zf/R0dH/Ghoa/xoaGv9ra2v/w8PD/0lJSf/b29v/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wqmCv8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wLqAv8PeA//Gh0a/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/1paWv/Kysr/Ghoa/xoaGv9LS0v///////Hx8f/AwMD/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wyYDP8C7wL/El0S/wm0Cf8C8QL/AP8A/wD/
+        AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8D6AP/EHIQ/xkjGf8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/09PT/+/v7//Ghoa/xoaGv8nJyf//Pz8//////+dnZ3/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wyYDP8C7gL/Ghoa/xoa
+        Gv8aHhr/FUUV/xFqEf8Ogg7/DYsN/w6FDv8QchD/FFAU/wbMBv8Hwgf/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/0RERP+zs7P/Ghoa/xoaGv8aGhr/1tbW////
+        //9xcXH/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wyY
+        DP8C7gL/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wfFB/8Hwgf/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/zY2Nv+bm5v/Ghoa/xoa
+        Gv8aGhr/kZGR//z8/P81NTX/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/wyYDP8C7gL/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wfF
+        B/8Hwgf/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/LCws/3V1df8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wyYDP8C7gL/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/wfFB/8Hwgf/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xY6Fv8UTxT/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wfFB/8Hwgf/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/wqoCv8Kpgr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhrVGhoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGtUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="supportLL.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;acceptB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
